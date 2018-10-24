@@ -13,7 +13,7 @@ key: "d4e499f551"
 `@lower_third`
 
 name: Ita Cirovic Donev
-title: Chief Data Scientist
+title: Founder, FinMetrika
 
 
 `@script`
@@ -21,11 +21,12 @@ title: Chief Data Scientist
 
 
 ---
-## Data and Methods
+## Types of Response Variables
 
 ```yaml
 type: "FullSlide"
 key: "470f96555a"
+center_content: false
 ```
 
 `@part1`
@@ -35,11 +36,7 @@ Methods of statistical analysis vs. various scales of data measurement
   
 | Response    	| Example                                     	| Method                           	|
 |-------------	|---------------------------------------------	|----------------------------------	|
-| Continuous  	| `height, weight`                              | Multiple regression              	|
-| Binary      	| `True, False`                         	| Logistic regression              	|
-| Counts      	| number of times an event occurs               | Poisson regression               	|
-| Multinomial 	| `red, green, blue` 	                        | Multinominal logistic regression 	|
-| Ordinal     	| `(1-10),(10-20), (>20)`                       | Ordinal logistic regression      	|
+| Continuous  	| `height, weight`                              | Multiple regression             	|
 
 
 `@script`
@@ -50,6 +47,108 @@ iid rv except the GEE method which are not scope of this course
 The models in this course involve a single response variable and a single and/or several explanatory variables.
 
 Don't forget that before any statistical analysis of data we should always first gain understanding of data and check data quality and make assurances that the values are plausible. For example, we can ask questions such as
+
+
+---
+## Types of Response Variables
+
+```yaml
+type: "FullSlide"
+key: "76102c1c4b"
+disable_transition: true
+```
+
+`@part1`
+Methods of statistical analysis vs. various scales of data measurement
+- responses measured are statistically independent random variables
+- explanatory variables: categorical and/or continuous
+
+| Response    	| Example                                     	| Method                           	|
+|-------------	|---------------------------------------------	|----------------------------------	|
+| Continuous  	| `height, weight`                              | Multiple regression             	| 
+| Binary      	| `True, False`                         	| Logistic regression              	|
+
+
+`@script`
+
+
+
+---
+## Types of Response Variables
+
+```yaml
+type: "FullSlide"
+key: "56c1c03e64"
+disable_transition: true
+```
+
+`@part1`
+Methods of statistical analysis vs. various scales of data measurement
+- responses measured are statistically independent random variables
+- explanatory variables: categorical and/or continuous
+
+| Response    	| Example                                     	| Method                           	|
+|-------------	|---------------------------------------------	|----------------------------------	|
+| Continuous  	| `height, weight`                              | Multiple regression             	| 
+| Binary      	| `True, False`                         	| Logistic regression              	|
+| Counts      	| number of times an event occurs               | Poisson regression               	|
+
+
+`@script`
+
+
+
+---
+## Types of Response Variables
+
+```yaml
+type: "FullSlide"
+key: "78b7e79bed"
+disable_transition: true
+```
+
+`@part1`
+Methods of statistical analysis vs. various scales of data measurement
+- responses measured are statistically independent random variables
+- explanatory variables: categorical and/or continuous
+
+| Response    	| Example                                     	| Method                           	|
+|-------------	|---------------------------------------------	|----------------------------------	|
+| Continuous  	| `height, weight`                              | Multiple regression             	| 
+| Binary      	| `True, False`                         	| Logistic regression              	|
+| Counts      	| number of times an event occurs               | Poisson regression               	|
+| Multinomial 	| `red, green, blue` 	                        | Multinominal logistic regression 	|
+
+
+`@script`
+
+
+
+---
+## Types of Response Variables
+
+```yaml
+type: "FullSlide"
+key: "d22bf7c8bd"
+disable_transition: true
+```
+
+`@part1`
+Methods of statistical analysis vs. various scales of data measurement
+- responses measured are statistically independent random variables
+- explanatory variables: categorical and/or continuous
+
+| Response    	| Example                                     	| Method                           	|
+|-------------	|---------------------------------------------	|----------------------------------	|
+| Continuous  	| `height, weight`                              | Multiple regression             	| 
+| Binary      	| `True, False`                         	| Logistic regression              	|
+| Counts      	| number of times an event occurs               | Poisson regression               	|
+| Multinomial 	| `red, green, blue` 	                        | Multinominal logistic regression 	|
+| Ordinal     	| `(1-10),(10-20), (>20)`                       | Ordinal logistic regression      	|
+
+
+`@script`
+
 
 
 ---
@@ -81,13 +180,18 @@ key: "c1ef15167e"
 ```
 
 `@part1`
-$E(Y_i) = \mu_i = \bold{x_i^T\beta}$  
-where $Y_i \sim N(\mu_i, \sigma^2) $
+Components of a GLM:
+- $y = y_1, ..., y_n$: response variable
+- $\mathbf{X}$: predictor variable
+- $\beta$: coefficients
+- $\mathbf{X}\beta$: linear predictor
+- $g$: link function such that $\hat{y} = g^{-1}(\mathbf{X}\beta)$
+- $P(y|\hat{y})$: data distribution
 
 
 `@part2`
-- link function
--
+$E(Y_i) = \mu_i = \mathbf{x_i^T\beta}$  
+where $Y_i \sim N(\mu_i, \sigma^2) $
 
 
 `@script`
@@ -95,7 +199,7 @@ where $Y_i \sim N(\mu_i, \sigma^2) $
 
 
 ---
-## Final Slide
+## Let's Practice!
 
 ```yaml
 type: "FinalSlide"
