@@ -29,6 +29,31 @@ xp: 50
 
 ---
 
+## Match data type with statistical method
+
+```yaml
+type: PureMultipleChoiceExercise
+key: d98ba49d1c
+xp: 50
+```
+
+You are conducting a study ... where you have the following measurements.......
+Which type of response data do you have?
+
+`@hint`
+
+
+`@possible_answers`
+binary
+count
+ordinal
+continuous
+
+`@feedback`
+
+
+---
+
 ## GLMs in Python
 
 ```yaml
