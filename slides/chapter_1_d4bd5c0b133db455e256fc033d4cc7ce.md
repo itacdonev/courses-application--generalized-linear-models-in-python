@@ -3,7 +3,7 @@ title: Insert title here
 key: d4bd5c0b133db455e256fc033d4cc7ce
 
 ---
-## GLMs in Python
+## Fit a GLM in Python
 
 ```yaml
 type: "TitleSlide"

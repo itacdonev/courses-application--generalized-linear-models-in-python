@@ -1,5 +1,5 @@
 ---
-title: 'INTRODUCTION TO GLM'
+title: 'Introduction to Generalized Linear Models'
 description: 'Chapter description goes here.'
 ---
 
@@ -16,7 +16,7 @@ xp: 50
 
 ---
 
-## Introduction to GLMs
+## Constructing GLMs
 
 ```yaml
 type: VideoExercise
@@ -54,7 +54,7 @@ continuous
 
 ---
 
-## GLMs in Python
+## GLM( ) function
 
 ```yaml
 type: VideoExercise
