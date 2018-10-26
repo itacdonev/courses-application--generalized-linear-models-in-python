@@ -3,7 +3,7 @@ title: 'INTRODUCTION TO GLM'
 description: 'Chapter description goes here.'
 ---
 
-## From LM to GLM
+## Why Generalized Linear Models?
 
 ```yaml
 type: VideoExercise
