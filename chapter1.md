@@ -29,7 +29,7 @@ xp: 50
 
 ---
 
-## Match data type with statistical method
+## Identify type of the response variable
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -37,17 +37,19 @@ key: d98ba49d1c
 xp: 50
 ```
 
-You are conducting a study ... where you have the following measurements.......
+You are conducting a study ..... where you have the following measurements.......
 Which type of response data do you have?
+(Which statistical method should you use to model $E[y]$?)
+- make a sequential question to cover examples with all 4 types of response variables. -> total 4 questions
 
 `@hint`
 
 
 `@possible_answers`
-binary
-count
-ordinal
-continuous
+- continuous
+- binary
+- count
+- ordinal
 
 `@feedback`
 
