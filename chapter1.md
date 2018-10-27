@@ -3,7 +3,7 @@ title: 'Introduction to Generalized Linear Models'
 description: 'Chapter description goes here.'
 ---
 
-## Why Generalized Linear Models?
+## Introduction to Generalized Linear Models
 
 ```yaml
 type: VideoExercise
